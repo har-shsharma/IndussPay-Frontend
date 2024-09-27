@@ -1,0 +1,133 @@
+.aboutContainer{
+    position: absolute;
+    top:2191px;
+    width: 1110px;
+    height: 883px;
+    background-image: url('../../../assets/images/samurai.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aboutOuterContainer{
+    display: flex;
+    justify-content: center ;
+}
+.facts{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:3195px;
+    width: 67.125vw;
+    height: 140px;
+}
+.fact1,
+.fact2,
+.fact3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.fact2Heading,
+.fact1Heading,
+.fact3Heading{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    color: #161C2D;
+    width:81px;
+    height: 58px;
+
+}
+.fact1Text,
+.fact2Text,
+.fact3Text{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #595f6a;
+    text-align: center;
+    width:19.625vw;
+    height: 64px;
+}
+
+.ourStoryTitleContainer{
+    width:515px;
+    height: 198px;
+    position: relative;
+}
+
+.ourStoryTitle{
+font-size: 13px;
+font-weight: 700;
+line-height: 15.72px;
+letter-spacing: 1.625px;
+text-align: left;
+color: #F64B4B;
+}
+
+.ourStoryDesc{
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -1.2000000476837158px;
+text-align: left;
+color:#161C2D;
+}
+
+.ourStorySubDesc{
+font-size: 17px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+color: #161C2D;
+opacity: 70%;
+width: 490px;
+height: 116px;
+position: relative;
+top:130px;
+left:520px;
+}
+
+.ourStoryImage1{
+    background-image: url('../../../assets/images/1.png');
+    width: 445px;
+    height: 565px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.ourStoryImage2{
+    background-image: url('../../../assets/images/2.png');
+    width: 318px;
+    height: 332px;
+    background-repeat: no-repeat;
+    margin-top: -750px;
+    position: relative;
+    left:520px;
+}
+
+.ourStoryImage3{
+    background-image: url('../../../assets/images/3.png');
+    width: 160px;
+    height: 167px;
+    background-repeat: no-repeat;
+    margin-top: -230px;
+    position: relative;
+    left:900px;
+}
+
+.ourStory2B{
+    background-image: url('../../../assets/images/Fill\ 1.png');
+    width: 107px;
+    height: 109px;
+    background-repeat: no-repeat;
+    position: relative;
+    top:-698px;
+    left:770px;
+    z-index: 1;
+}

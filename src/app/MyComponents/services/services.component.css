@@ -1,0 +1,157 @@
+.servicesContainer{
+    display:flex ;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:949px;
+    width:1161.86px;
+    height: 751.23px;
+}
+.servicesHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:589px;
+    height: 135px;
+}
+.servicesSubText{
+    color: #161C2D;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    text-align: center;
+    width: 521px;
+    height: 96px;
+}
+
+.servicesHeading{
+    height: 16px;
+    width:589px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.72px;
+    letter-spacing: 1.63px;
+    text-align: center;
+    color:#F64B4B;
+    text-shadow: 0px 3px 2px #00000033;
+}
+.servicesProvidedContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:72vw;
+    margin:80px 0 80px 80px;
+}
+.graphicDesignService{
+    width:22.06vw;
+    height:480px;
+    background-color: #68D585;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.webDevelopmentService{
+    width:22.06vw;
+    height:480px;
+    background-color: #473BF0;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contentWritingService{
+    width:22.06vw;
+    height:480px;
+    background-color: #F64B4B;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.graphicDesignEmote{
+    background-image: url('../../../assets/images/Designer-rafiki.svg');
+    width:117.75px;
+    height:132.35px;
+    position: relative;
+    top:60.33px;
+}
+.webDevelopmentEmote{
+    background-image: url('../../../assets/images/Programming-rafiki.svg');
+    width:145.46px;
+    height:134.52px;
+    position: relative;
+    top:53.29px;
+}
+.contentWritingEmote{
+    background-image: url('../../../assets/images/Notes-rafiki.svg');
+    width:114.58px;
+    height:142.35px;
+    position: relative;
+    top:49.3px;
+}
+.graphicDesignHeading,
+.webDevelopmentHeading,
+.contentWritingHeading{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color:#FFFFFF;
+    position: relative;
+    top:95px;
+}
+.graphicDesignText,
+.webDevelopmentText,
+.contentWritingText{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color:#FFFFFF;
+    opacity: 65%;
+    position: relative;
+    top:96px;
+    width: 18.5vw;
+    height: 87px;
+}
+.graphicDesignButton,
+.webDevelopmentButton,
+.contentWritingButton{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color:#FFFFFF;
+    background-color: transparent;
+    border:none;
+    position: relative;
+    top:120px;
+}
+.strokePNG{
+    background-image: url('../../../assets/images/Group\ 101.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top:1615px;
+    left:1203.86px;
+    height: 82px;
+    width: 173px;
+    z-index: -1;
+}
+.rightArrow{
+  font-size: 24px;
+  color: white;
+  font-weight: bolder; 
+  margin-left: 10px; 
+}

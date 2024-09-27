@@ -1,0 +1,89 @@
+.testimonial{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 635px;
+    position: absolute;
+    top:6304px;
+    background-color: #473BF0;
+    overflow: hidden;
+}
+
+.testimonialBackgroundImage{
+    background-image: url('../../../assets/images/Group\ 47.png');
+    background-repeat: no-repeat;
+    width: 1341.24px;
+    height: 1315.24px;
+    position: relative;
+    left:105px;
+}
+
+.testimonialContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:0;
+}
+.testimonialHeading{
+    position: relative;
+    top:150px;
+    width:589px;
+    height:16px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.72px;
+    letter-spacing: 1.63px;
+    text-align: center;
+    color: #68D585;
+}
+
+.testimonialSubText{
+    position: relative;
+    top:150px;
+    width:655px;
+    height:132px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -1.2px;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonialPerson{
+    background-image: url('../../../assets/images/Oval\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 76px;
+}
+
+.testimonialPersonInfo{
+    position: relative;
+    top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonialPersonName{
+    width: auto;
+    height: 29px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: normal-0.2px;
+    text-align: center;
+    color:#fff;
+}
+.testimonialPersonDesignation{
+    width:auto;
+    height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color:#fff;
+    opacity:65%
+}

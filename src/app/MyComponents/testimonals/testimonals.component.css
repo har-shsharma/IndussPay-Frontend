@@ -1,0 +1,50 @@
+.testimonals{
+    display: flex;
+    justify-content: center;
+    width: 69.25vw;
+    height: 301px;
+    position: absolute;
+    top: 1768px;
+    border-bottom: 2px solid #e7e9ed;
+}
+.testimonalsContainer{
+    display: flex;
+    justify-content: center;
+}
+.testimonalsInner{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    height: 178px;
+}
+.testimonalsImage{
+    background-image: url('../../../assets/images/Oval.png');
+    background-repeat: no-repeat;
+    width: 164px;
+    height: 164px;
+}
+.testimonalsContent{
+    display: flex;
+    flex-direction: column;
+    width:45.625vw;
+    height: auto;
+}
+.testimonalsRating{
+    background-image: url('../../../assets/images/Stars.svg');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 19px;
+}
+.testimonalSubText{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    color: #161C2D;
+}
+.testimonalPerson{
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    color: #161C2D;
+}
